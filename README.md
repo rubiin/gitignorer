@@ -10,6 +10,6 @@ Make sure golang s installed on your machine. After that you can run the command
 
 * `go getgithub.com/rubiin/gitignorer`
 
-Now fire up your terminal and type just `gitignorer` gives you a nice multi-select interface from which you can choose what you want in gitignore
+Now fire up your terminal and type just `gitignorer` gives you a nice select interface from which you can choose what you want in gitignore
 
 Made with ❤️ with opensource.
