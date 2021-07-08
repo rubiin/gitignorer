@@ -12,6 +12,8 @@ import (
 	"strings"
 )
 
+
+
 func writeFile(value []byte, language string){
 	err := ioutil.WriteFile(".gitignore", value, 0644)
 	if err != nil {
