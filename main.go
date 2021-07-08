@@ -12,8 +12,12 @@ import (
 	"strings"
 )
 
-func writeFile(){
-
+func writeFile(value []byte, language string){
+	err := ioutil.WriteFile(".gitignore", value, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Printf("Successfully created gitignore for %s\n", language)
 }
 
 
@@ -68,7 +72,7 @@ func main() {
 	}
 	//Convert the body to type string
 	addingSpinner.Stop()
-	fmt.Println(string(giBody))
+	writeFile(giBody,result)
 
 
 }
