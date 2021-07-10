@@ -1,7 +1,7 @@
 <img src="https://www.devteam.space/wp-content/uploads/2017/03/gopher_head-min.png"/>
 
 # Gitignorer
-Cli app to quicky add gitignore files to your current environment/projects
+Cli app to quickly add gitignore files to your current environment/projects
 
 
 ## Usage
