@@ -7,7 +7,7 @@ Cli app to quickly add gitignore files to your current environment/projects
 
 ## Usage
 
-Make sure golang s installed on your machine. After that you can run the command to install :
+Make sure golang is installed on your machine. After that you can run the command to install :
 
 * `go get github.com/rubiin/gitignorer`
 
